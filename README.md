@@ -1,2 +1,2 @@
 # cheatsheet
-pentesting cheatsheet
+pentesting cheatsheets
