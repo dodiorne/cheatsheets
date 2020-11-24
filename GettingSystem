@@ -1,6 +1,7 @@
 
     Remote Windows exploits such as EternalBlue or BlueKeep.
     Abusing a service running in the context of the SYSTEM account.
-    Abusing SeImpersonate privileges using |[RottenPotatoNG](https://github.com/breenmachine/RottenPotatoNG)| against older Windows systems, Juicy Potato, or PrintSpoofer if targeting Windows 10/Windows Server 2019.
+    |Abusing SeImpersonate privileges using [RottenPotatoNG](https://github.com/breenmachine/RottenPotatoNG) against older Windows systems|
+    Juicy Potato, or PrintSpoofer if targeting Windows 10/Windows Server 2019.
     Local privilege escalation flaws in Windows operating systems such as the Windows 10 Task Scheduler 0day.
     PsExec with the -s flag
