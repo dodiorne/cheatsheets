@@ -23,7 +23,10 @@
 # Obfuscation Websites
 | **Website** |
 | ----------------------------------|
-| [JS Minifier] (https://javascript-minifier.com/)|
+| [JS Minifier](https://javascript-minifier.com/)|
+| [JS Obfuscator](https://obfuscator.io/)|
+| [JSFuck](http://www.jsfuck.com/)|
+| [JJ Encode](https://utf-8.jp/public/jjencode.html)|
 
 # Misc
 
