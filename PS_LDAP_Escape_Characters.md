@@ -1,7 +1,7 @@
 # When using filters, certain characters must be escaped
 
 | **Character** | **Escaped As** | **Note**                                      |
-| -------|-----|------|
+| -------|--------------|------|
 | “ | `” |Only needed if the data is enclosed in double-quotes.|
 |‘ 	| \’ |Only needed if the data is enclosed in single quotes.|
 |NUL|	\00|Standard LDAP escape sequence.|
