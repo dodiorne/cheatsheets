@@ -1,7 +1,7 @@
 #Install RSAT for Windows 10 1809 and 1903 and 1909 automated
 
 #https://gallery.technet.microsoft.com/Install-RSAT-for-Windows-75f5f92f
-
+#Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property Name, State
 <#
 .SYNOPSIS
     Install RSAT features for Windows 10 1809 or 1903 or 1909.
