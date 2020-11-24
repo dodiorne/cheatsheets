@@ -1,7 +1,17 @@
+#There are several ways to gain SYSTEM-level access on a host, including but not limited to:
 
     Remote Windows exploits such as EternalBlue or BlueKeep.
     Abusing a service running in the context of the SYSTEM account.
     |Abusing SeImpersonate privileges using [RottenPotatoNG](https://github.com/breenmachine/RottenPotatoNG) against older Windows systems|
-    Juicy Potato, or PrintSpoofer if targeting Windows 10/Windows Server 2019.
+    Juicy Potato (https://github.com/ohpe/juicy-potato), or PrintSpoofer (https://github.com/itm4n/PrintSpoofer) if targeting Windows 10/Windows Server 2019 (https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/).
     Local privilege escalation flaws in Windows operating systems such as the Windows 10 Task Scheduler 0day.
     PsExec with the -s flag
+
+#By gaining SYSTEM-level access on a domain-joined host, we will be able to:
+
+ 
+    Enumerate the domain and gather data such as information about domain users and groups, local administrator access, domain trusts, ACLs, user and computer properties, etc., using BloodHound, and PowerView/SharpView.
+    Perform Kerberoasting / ASREPRoasting attacks.
+    Run tools such as Inveigh (https://github.com/Kevin-Robertson/Inveigh) to gather Net-NTLM-v2 hashes or perform relay attacks.
+    Perform token impersonation to hijack a privileged domain user account.
+    Carry out ACL attacks.
