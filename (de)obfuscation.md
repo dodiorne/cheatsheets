@@ -33,4 +33,4 @@
 | **Command**   | **Description**   |
 | --------------|-------------------|
 | `ctrl+u` | Show HTML source code in Firefox |
-| [JS Console](https://jsconsole.com/)|
+| [JS Console](https://jsconsole.com/)| Javascript Console |
