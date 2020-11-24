@@ -15,3 +15,4 @@
 | `Get-ADUser -Filter {adminCount -gt 0} -Properties admincount,useraccountcontrol` | Enumerate UAC values for admin users |
 | `Get-WmiObject -Class win32_group -Filter "Domain='INLANEFREIGHT'"` | Get AD groups using WMI |
 | `([adsisearcher]"(&(objectClass=Computer))").FindAll()` | Use ADSI to search for all computers |
+| `Get-ADUser -Filter "adminCount -eq '1'" -Properties * \| where servicePrincipalName -ne $null \| select SamAccountName,MemberOf,ServicePrincipalName \| fl` | Find Administrative Users with the ServicePrincipalName |
