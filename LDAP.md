@@ -10,3 +10,7 @@
 
 [RFC 4515 - Lightweight Directory Access Protocol (LDAP): String Representation of Search Filters](https://tools.ietf.org/html/rfc4515)
 
+[Large listing of user attributes](http://www.kouti.com/tables/userattributes.htm)
+
+[Base Attributes](http://www.kouti.com/tables/baseattributes.htm)
+
