@@ -2,7 +2,7 @@
 | --------------|-------------------|
 | `Get-ADGroup -Identity "<GROUP NAME" -Properties *` | Get information about an AD group |
 | `whoami /priv`                                      | View a user's current rights  |
-| ` Get-WindowsCapability -Name RSAT* -Online \| Select-Object -Property Name, State` | Check if RSAT tools are installed |
+| `Get-WindowsCapability -Name RSAT* -Online \| Select-Object -Property Name, State` | Check if RSAT tools are installed |
 | `Get-WindowsCapability -Name RSAT* -Online \| Add-WindowsCapability –Online` | Install all RSAT tools |
 | `runas /netonly /user:htb.local\jackie.may powershell` | Run a utility as another user |
 | `Get-ADObject -LDAPFilter '(objectClass=group)' \| select cn` | LDAP query to return all AD groups |
