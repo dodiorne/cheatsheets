@@ -20,6 +20,11 @@
 | [Beautifier](https://beautifier.io/) |
 | [JSNice](http://www.jsnice.org/) |
 
+# Obfuscation Websites
+| **Website** |
+| ----------------------------------|
+| [JS Minifier] (https://javascript-minifier.com/)|
+
 # Misc
 
 | **Command**   | **Description**   |
