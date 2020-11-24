@@ -34,3 +34,4 @@
 | --------------|-------------------|
 | `ctrl+u` | Show HTML source code in Firefox |
 | [JS Console](https://jsconsole.com/)| Javascript Console |
+| [Cipher Identifier](https://www.boxentriq.com/code-breaking/cipher-identifier)| Cipher Identifier|
