@@ -14,3 +14,5 @@
 
 [Base Attributes](http://www.kouti.com/tables/baseattributes.htm)
 
+[Active Directory: LDAP Syntax Filters](https://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx)
+
