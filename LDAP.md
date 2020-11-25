@@ -16,3 +16,8 @@
 
 [Active Directory: LDAP Syntax Filters](https://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx)
 
+[windapsearch](https://github.com/ropnop/windapsearch)
+
+[ldapsearch](https://linux.die.net/man/1/ldapsearch)
+
+[ldapsearch-ad.py](https://github.com/yaap7/ldapsearch-ad)
